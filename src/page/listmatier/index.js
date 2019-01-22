@@ -18,9 +18,9 @@ export default class ListMatier extends Component {
 
     this.state = {
       response: [
-        { name: "Math", id: 1, moyen: 13 },
-        { name: "Physique", id: 2, moyen: 13 },
-        { name: "France", id: 3, moyen: 13 }
+        { name: "Client", id: 1, moyen: 18 },
+        { name: "Client", id: 2, moyen: 10 },
+        { name: "Client", id: 3, moyen: 15 }
       ],
       fadeAnim: new Animated.Value(1),
       fadeAnim2: new Animated.Value(-3),
@@ -204,14 +204,11 @@ export default class ListMatier extends Component {
                     <View style={{ margin: 5 }}>
                       <View style={{ padding: 30, flexDirection: "row" }}>
                         <View style={{ height: 70 }}>
-                          <Text>CHIFEHI : </Text>
+                          <Text>LastName: </Text>
                         </View>
                         <View style={{ height: 70 }}>
-                          <TextInput
-                            style={{ height: 40, width: 50 }}
-                            placeholder={"0"}
-                            keyboardType="numeric"
-                          />
+                        <Text> corine </Text>
+                        
                         </View>
                       </View>
 
@@ -224,27 +221,19 @@ export default class ListMatier extends Component {
                         }}
                       >
                         <View style={{ marign: 10, height: 70 }}>
-                          <Text>CHIFEHI : </Text>
+                          <Text>First Name : </Text>
                         </View>
                         <View style={{ marign: 10, height: 70 }}>
                           {/* <Text>14</Text> */}
-                          <TextInput
-                            style={{ height: 40, width: 50 }}
-                            placeholder={"0"}
-                            keyboardType="numeric"
-                          />
+                          <Text>lonking </Text>
                         </View>
                       </View>
                       <View style={{ padding: 30, flexDirection: "row" }}>
                         <View style={{ marign: 10, height: 70 }}>
-                          <Text>CHIFEHI : </Text>
+                          <Text>Age : </Text>
                         </View>
                         <View style={{ marign: 10, height: 70 }}>
-                          <TextInput
-                            style={{ height: 40, width: 50 }}
-                            placeholder={"0"}
-                            keyboardType="numeric"
-                          />
+                        <Text>32 </Text>
                         </View>
                       </View>
                     </View>
